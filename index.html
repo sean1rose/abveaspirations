@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <body>
+        <div id='frame'>
+          <div id='display'>
+            <h1 id='output'></h1>
+          </div>
+        </div>
+        <div class="spacer">
+        </div>
+        <div id="main"> <!-- 11main -->
+            <h1 id='consoleTitle'>Control Board</h1>
+            <h5 id='consoleSub'><i>Double-click on an entry to remove. And add entries to your heart's desire...</i></h5>
+            <div id="controlbox"> <!-- @@controlbox --> 
+                <div id="controlpanel"></div>
+                <div class="spacer"></div>    
+                    <div id="formula">    <!--formula -->
+                        <form id="frm" method="post">
+                            <input id="txt" type="text" placeholder="Insert your own entry here..." name="text">            
+                            <input id='submitBtn' type="submit" value="Start">
+                            <input id='stop' type="button" value="Stop">            
+                                <select id="load1">
+                                    <option id='pre0' value="Preset 0">Preset 0</option>
+                                    <option id='pre1' value="Preset 1">Preset 1</option>
+                                    <option id='pre2' value="Preset 2">Preset 2</option>   
+                                </select>
+                                            <!-- These are for buttons as opposed to OPTION...
+                                            <input id="load" type="button" value="Preset 1">
+                                            <input id="load2" type="button" value="Preset 2"-->
+                        </form>
+                    </div>          <!-- formula -->   
+            </div>  <!-- @@controlbox -->
+        </div>        <!-- 11main -->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="textualizer.js"></script>
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>  
