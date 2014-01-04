@@ -1,0 +1,67 @@
+#main {
+    width: auto;
+    display: block;
+    padding: 10px 0;
+}
+
+#controlbox {
+    width: 500px;
+    margin: 0 auto;
+    background-color: #CCC;
+    border: 1px solid #b8b8b8;
+    padding: 10px;
+
+}
+
+#controlpanel {
+    background-color: #fff;
+    height: 150px;
+    padding: 5px;
+    overflow: auto;
+}
+
+#consoleTitle {
+    font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+    text-align: center;
+}
+
+#consoleSub {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-align: center;
+}
+
+#forumula {
+    float: right;
+}
+
+#output {
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+    line-height: normal;
+}
+
+#display {
+    background-color: #fff;
+    height: 300px;
+    background: url('http://i151.photobucket.com/albums/s147/yungottii/abovethecloudsbnw.jpg') no-repeat 0 0 scroll;
+    background-size: 100%;
+    text-align: center;
+    overflow: auto;
+    font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+    font-size: 30px;
+    color: black;
+}
+
+#frame {
+    width: 500px;
+    margin: 0 auto;
+    background-color: black;
+    border: inset 5px solid;
+    padding: 5px;
+}
+
+#txt {
+    width: 200px;
+}
