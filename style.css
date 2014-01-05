@@ -45,12 +45,12 @@
 #display {
     background-color: #fff;
     background: url('http://i151.photobucket.com/albums/s147/yungottii/abovethecloudsbnw.jpg') no-repeat 0 0 scroll;
-    width: 1024px;
-    height: 768px;
+    width: 1280px;
+    height: 800px;
     background-size: 100%;
     text-align: center;
     overflow: auto;
-    font-family: Monaco, Consolas, "Lucida Console", monospace;
+    font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
     font-size: 80px;
     color: black;
 }
