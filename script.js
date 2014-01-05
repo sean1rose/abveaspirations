@@ -11,6 +11,7 @@ $(document).ready(function () {
     var pre1 = $('#pre1');
     var pre2 = $('#pre2');
     var txt = $('#display');
+    var frame = $('#frame');
     var preset1 = ["1", "2", "3"];
     var preset2 = ["a", "b", "c"];
     var container = ["What we do in life echoes in all eternity.", "Find your purpose and give it life.", "When you work your hardest, the world opens up to you.", "Success isn't the result of spontaneous combustion. You must set yourself on fire.", "You might be more creative, talented, artistic, outgoing, or beautiful. But I will outwork the f*ck out of you. Period.", "Inspiration exists, but it has to find you working.", 
@@ -66,7 +67,6 @@ $(document).ready(function () {
         updateConsole();
     };
     
-
     $(pre0).data('onselect', function() {
         loadPreset0();
     });    
@@ -85,8 +85,7 @@ $(document).ready(function () {
         if ( typeof handler == 'function' ) {
             handler.call(selected, e);
         }
-    });
-            
+    });           
 
     function updateConsole() {
         for (var z = 0; z < container.length; z++) {
@@ -115,7 +114,6 @@ $(document).ready(function () {
             centered: true
         };
         
-
         var tempContainer = [];
         for (var x = 0; x < container.length; x++){
             var index = Math.floor(Math.random() * container.length);
@@ -123,16 +121,10 @@ $(document).ready(function () {
         };
 
         stopTextualizer();
-        txt.textualizer(tempContainer, options);
-        txt.textualizer('start');
+        frame.textualizer(tempContainer, options);
+        frame.textualizer('start');
         txtBox.val('');
     }
-    
-    frm.submit(function (event) {
-        event.preventDefault();
-        display();
-    }); 
-        
     
     $("#controlbox").on('dblclick', 'p', function() {
         var $entry = $(this);
@@ -143,11 +135,19 @@ $(document).ready(function () {
     });
     
     function stopTextualizer(){
-        txt.textualizer('stop');
-        txt.textualizer('destroy');
+        frame.textualizer('stop');
+        frame.textualizer('destroy');
     }
         
     $(stopBtn).click(function() {
         stopTextualizer();
     });
+
+    display();
+
+    frm.submit(function (event) {
+        event.preventDefault();
+        display();
+    }); 
+        
 });
