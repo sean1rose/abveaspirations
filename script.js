@@ -66,11 +66,6 @@ $(document).ready(function () {
         updateConsole();
     };
     
-    /* FOR WHEN USED BUTTON TO CHANGE PRESET (AS OPPOSED TO OPTION) 
-    $(loadBtn).on("click", function() {
-        loadPreset1();
-    });
-    */
 
     $(pre0).data('onselect', function() {
         loadPreset0();
@@ -92,17 +87,7 @@ $(document).ready(function () {
         }
     });
             
-    
 
-    
-    /* FOR WHEN U USED BUTTONS TO CHANGE PRESETS RATHER THAN OPTION
-    $(loadBtn2).click(function() {
-        loadPreset2();
-    });
-    */
-        
-    
-    // This adds the pre-existing container strings to console
     function updateConsole() {
         for (var z = 0; z < container.length; z++) {
             var resultC = container[z];
@@ -113,10 +98,7 @@ $(document).ready(function () {
     
     updateConsole();
     
-    
-    frm.submit(function (event) {
-        event.preventDefault();
-        
+    function display() {
         if (txtBox.val() != '') {
             var result = txtBox.val();
             container.push(result);                         //1.
@@ -133,42 +115,31 @@ $(document).ready(function () {
             centered: true
         };
         
+
+        var tempContainer = [];
+        for (var x = 0; x < container.length; x++){
+            var index = Math.floor(Math.random() * container.length);
+            tempContainer.push(container[index]);
+        };
+
         stopTextualizer();
-        txt.textualizer(container, options);
+        txt.textualizer(tempContainer, options);
         txt.textualizer('start');
         txtBox.val('');
+    }
+    
+    frm.submit(function (event) {
+        event.preventDefault();
+        display();
     }); 
         
-    
-    /* USED setInterval BEFORE USED TEXTUALIZER PLUGIN     
-
-            var i = 0;
-            clearInterval(oldHandle);
-            oldHandle = setInterval(function () {
-                if (i >= container.length) {
-                    i = 0;
-                }
-                if (container.length > 0) {
-                    var index = Math.floor(Math.random() * container.length);
-                    output.text(container[index]);               //3.
-                    console.log(container[index]);
-                    ++i;
-                } else {
-                    output.empty();
-                    clearInterval(oldHandle);
-                }
-            }, 4000)
-
-            txtBox.val('');
-        });
-
-    */
-    
     
     $("#controlbox").on('dblclick', 'p', function() {
         var $entry = $(this);
         container.splice($entry.index(), 1);
         $entry.remove();
+        stopTextualizer();
+        display();
     });
     
     function stopTextualizer(){
@@ -179,19 +150,4 @@ $(document).ready(function () {
     $(stopBtn).click(function() {
         stopTextualizer();
     });
-    
-
-        
-    /* USED IN CONJUNCTION W/ setInterval (BEFORE TEXTUALIZER) 
-
-    function stopDisplay(){
-        clearInterval(oldHandle);
-    };
-    
-    $(stopBtn).click(function() {
-        stopDisplay();
-    });
-    });
-    
-    */
 });
