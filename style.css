@@ -47,24 +47,16 @@
     background-size: 100%;
 }
 
-#display {
-    height: 580px;
-    text-align: center;
-    overflow: auto;
-    font-family: Perpetua, Baskerville, "Big Caslon", "Palatino Linotype", Palatino, "URW Palladio L", "Nimbus Roman No9 L", serif;
-    font-size: 90px;
-    color: white;
-}
 
 #frame {
-    height: 350px;
+    height: 500px;
     background: url('http://i151.photobucket.com/albums/s147/yungottii/abve.png') no-repeat 0 0 scroll;
     background-position: center bottom;
-    background-size: 75%;
+    background-size: 60%;
     text-align: center;
     overflow: auto;
     font-family: Perpetua, Baskerville, "Big Caslon", "Palatino Linotype", Palatino, "URW Palladio L", "Nimbus Roman No9 L", serif;
-    font-size: 70px;
+    font-size: 60px;
     color: white; 
 }
 
