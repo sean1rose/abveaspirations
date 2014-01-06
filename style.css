@@ -51,13 +51,14 @@
 
 #frame {
     height: 600px;
+    width: 800px;
     background: url('http://i151.photobucket.com/albums/s147/yungottii/abve.png') no-repeat 0 0 scroll;
     background-position: center bottom;
-    background-size: 60%;
+    background-size: 75%;
     text-align: center;
     overflow: auto;
     font-family: Perpetua, Baskerville, "Big Caslon", "Palatino Linotype", Palatino, "URW Palladio L", "Nimbus Roman No9 L", serif;
-    font-size: 60px;
+    font-size: 50px;
     color: white; 
 }
 
