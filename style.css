@@ -52,21 +52,18 @@
 #display {
     width: 1245px;
     height: 580px;
-    background-size: 100%;
     text-align: center;
     overflow: auto;
     font-family: Perpetua, Baskerville, "Big Caslon", "Palatino Linotype", Palatino, "URW Palladio L", "Nimbus Roman No9 L", serif;
     font-size: 90px;
-    color: black;
+    color: white;
 }
 
 #frame {
     background: url('http://i151.photobucket.com/albums/s147/yungottii/abve.png') no-repeat 0 0 scroll;
     background-position: center bottom;
     background-size: 100%;
-    width: 1245px;
     margin: 0 auto;
-    background-color: black;
     border: inset 5px solid;
     padding: 5px;
     text-align: center;
