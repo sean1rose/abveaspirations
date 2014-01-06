@@ -11,6 +11,7 @@ $(document).ready(function () {
     var pre1 = $('#pre1');
     var pre2 = $('#pre2');
     var txt = $('#display');
+    var glass = $('#frame');
     var preset1 = ["1", "2", "3"];
     var preset2 = ["a", "b", "c"];
     var container = ["What we do in life echoes in all eternity.", "Find your purpose and give it life.", "When you work your hardest, the world opens up to you.", "Success isn't the result of spontaneous combustion. You must set yourself on fire.", "You might be more creative, talented, artistic, outgoing, or beautiful. But I will outwork the f*ck out of you. Period.", "Inspiration exists, but it has to find you working.", 
@@ -120,8 +121,8 @@ $(document).ready(function () {
         };
 
         stopTextualizer();
-        txt.textualizer(tempContainer, options);
-        txt.textualizer('start');
+        glass.textualizer(tempContainer, options);
+        glass.textualizer('start');
         txtBox.val('');
     }
     
@@ -134,8 +135,8 @@ $(document).ready(function () {
     });
     
     function stopTextualizer(){
-        txt.textualizer('stop');
-        txt.textualizer('destroy');
+        glass.textualizer('stop');
+        glass.textualizer('destroy');
     }
         
     $(stopBtn).click(function() {
