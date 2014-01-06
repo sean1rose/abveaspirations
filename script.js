@@ -4,6 +4,7 @@ $(document).ready(function () {
     var output = $('#output');
     var subBtn = $('#submitBtn');
     var stopBtn = $('#stop');
+    var pauseBtn = $('#pause');
     var loadBtn = $('#load');
     var loadBtn2 = $('#load2');
     var loadBtnA = $('#load1');
@@ -105,7 +106,7 @@ $(document).ready(function () {
             var resultB = container[container.length-1];
             var $entry = $('<p>' + '- ' + resultB + '</p>');
             console.append($entry);                         //2.
-        }
+        };
         
         var options = {
             duration: 5000,
@@ -124,7 +125,7 @@ $(document).ready(function () {
         glass.textualizer(tempContainer, options);
         glass.textualizer('start');
         txtBox.val('');
-    }
+    };
     
     $("#controlbox").on('dblclick', 'p', function() {
         var $entry = $(this);
@@ -137,10 +138,18 @@ $(document).ready(function () {
     function stopTextualizer(){
         glass.textualizer('stop');
         glass.textualizer('destroy');
-    }
+    };
         
     $(stopBtn).click(function() {
         stopTextualizer();
+    });
+
+    function pauseTextualizer(){
+        glass.textualizer('pause');
+    };
+
+    $(pauseBtn).click(function() {
+        pauseTextualizer();
     });
 
     display();
