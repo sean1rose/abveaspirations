@@ -51,13 +51,10 @@
 
 #frame {
     height: 600px;
-    background: url('http://i151.photobucket.com/albums/s147/yungottii/abve.png') no-repeat 0 0 scroll;
-    background-position: center bottom;
-    background-size: 75%;
     text-align: center;
     overflow: auto;
     font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
-    font-size: 75px;
+    font-size: 70px;
     color: black; 
 }
 

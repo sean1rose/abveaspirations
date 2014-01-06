@@ -109,7 +109,7 @@ $(document).ready(function () {
         };
         
         var options = {
-            duration: 5000,
+            duration: 9000,
             rearrangeDuration: 1000,
             effect: 'random',
             centered: true
