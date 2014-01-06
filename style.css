@@ -42,15 +42,11 @@
     line-height: normal;
 }
 
-#outer {
-    height: 600px;
-    background: url('http://i151.photobucket.com/albums/s147/yungottii/abveaspibackground.png') no-repeat 0 0 scroll;
-    background-size: 100%;
-}
-
 
 #frame {
-    height: 600px;
+    height: 612px;
+    background: url('http://i151.photobucket.com/albums/s147/yungottii/abveaspi_background.png') no-repeat 0 0 scroll;
+    background-size: 100%;
     text-align: center;
     overflow: auto;
     font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
