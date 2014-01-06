@@ -46,16 +46,30 @@
     height: 612px;
     background: url('http://i151.photobucket.com/albums/s147/yungottii/abveaspi_background_final.png') no-repeat 0 0 scroll;
     background-size: 100%;
+    position: relative;
+
 }
 
 #frame {
     text-align: center;
-    height: 612px;
-    padding: 50px;
     overflow: auto;
     font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
     font-size: 60px;
-    color: black; 
+    color: black;
+    position: absolute;
+    top: 10%;
+    bottom: 20%;
+    left: 15%;
+    right: 15%;
+}
+
+@media only screen
+and (max-width: 1060px) {
+
+    #outer {
+        height: 0;
+        padding-top: 47.85%;
+    }
 }
 
 #txt {
