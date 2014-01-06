@@ -50,7 +50,8 @@
 
 #frame {
     text-align: center;
-    padding: 0px;
+    height: 612px;
+    padding: 50px;
     overflow: auto;
     font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
     font-size: 60px;
