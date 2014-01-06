@@ -43,14 +43,14 @@
 }
 
 #outer {
-    height: 500px;
+    height: 600px;
     background: url('http://i151.photobucket.com/albums/s147/yungottii/abveaspibackground.png') no-repeat 0 0 scroll;
-    background-size: 125%;
+    background-size: 100%;
 }
 
 
 #frame {
-    height: 500px;
+    height: 600px;
     background: url('http://i151.photobucket.com/albums/s147/yungottii/abve.png') no-repeat 0 0 scroll;
     background-position: center bottom;
     background-size: 60%;
