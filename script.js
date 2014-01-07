@@ -24,7 +24,7 @@ $(document).ready(function () {
 "Intent reveals desire. Action reveals commitment.",
 "I want to put a dent in the universe.",
 "There is only one way to avoid criticism: do nothing, say nothing, and be nothing.",
-"Sometimes I feel like giving up, then I remember that I have a lot of motherf*ckers to prove wrong.",
+"Sometimes I feel like giving up, then I remember that I have a lot of motherfuckers to prove wrong.",
 "My belief is stronger than your doubt.",
 "Don't wait for it to happen... make it happen.",
 "You can't stop what's coming.",
@@ -40,7 +40,7 @@ $(document).ready(function () {
 "You have a choice. Live or die. Every breath is a choice. Every minute is a choice. To be or not to be.",
 "Once you make a decision... the Universe conspires to make it happen.",
 "Life begins at the end of your comfort zone.",
-"Walk in. F*ck sh!t up. Walk out.",
+"Walk in. Fuck shit up. Walk out.",
 "If your actions inspire others to dream more, learn more, do more and become more, you are a leader.",
 "In any situation the best thing you can do is the right thing, the next best thing you can do is the wrong thing, the worst thing you can do is nothing.",
 "Live once.",
@@ -49,7 +49,7 @@ $(document).ready(function () {
 "Don't worry... Everything is going to be amazing.",
 "Be ashamed to die until you have won some victory for humanity."];
     var preset2 = ["Success isn't the result of spontaneous combustion. You must set yourself on fire.",
-"You might be more creative, talented, artistic, outgoing, or beautiful. But I will outwork the f*ck out of you. Period.", 
+"You might be more creative, talented, artistic, outgoing, or beautiful. But I will outwork the fuck out of you. Period.", 
 "Inspiration exists, but it has to find you working.",
 "It's not what you do every once in awhile; it's what you dedicate yourself to on a regular basis that makes the difference.",
 "It's ok to not work. Just know that somewhere, someone else is... and they'll be ready to take your place.",
@@ -69,7 +69,6 @@ $(document).ready(function () {
 "The extra mile is a vast, unpopulated wasteland.",
 "Everything is energy and that's all there is to it. Match the frequency of the reality you want and you cannot help but get that reality. It can be no other way. This is not philosophy. This is physics.",
 "How you do anything is how you do everything.",
-"The more I want to get something done, the less I call it work.",
 "A mind always employed is always happy. This is the true secret, the grand recipe, for felicity.",
 "The harder you work the harder it is to surrender."];
     var preset3 = ["Find your purpose and give it life.",
@@ -123,7 +122,7 @@ $(document).ready(function () {
 "Those who mind don't matter, and those who matter don't mind.",
 "No one can make you feel inferior without your consent.",
 "We are all in the gutter, but some of us are looking at the stars.",
-"Learn to say 'F*ck You' to the world once in a while.",
+"Learn to say 'Fuck You' to the world once in a while.",
 "To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment.",
 "Work on building the life of your dreams, and the person of your dreams will follow.",
 "He who says he can and he who says he can't are both usually right.",
@@ -133,7 +132,7 @@ $(document).ready(function () {
 "Don't try to fit in... they're all miserable over there.",
 "An essential aspect of creativity is not being afraid to fail.",
 "If you want to fly, you have to give up the things that weigh you down.",
-"Just keep moving forward and don't give a sh!t about what anybody thinks. Do what you have to do, for you.",
+"Just keep moving forward and don't give a shit about what anybody thinks. Do what you have to do, for you.",
 "Don't look to the approval of others for your mental stability.",
 "Smile, breathe, and go slowly.",
 "Being realisitic is the most commonly traveled road to mediocrity."];
@@ -148,7 +147,7 @@ $(document).ready(function () {
 "Intent reveals desire. Action reveals commitment.",
 "I want to put a dent in the universe.",
 "There is only one way to avoid criticism: do nothing, say nothing, and be nothing.",
-"Sometimes I feel like giving up, then I remember that I have a lot of motherf*ckers to prove wrong.",
+"Sometimes I feel like giving up, then I remember that I have a lot of motherfuckers to prove wrong.",
 "My belief is stronger than your doubt.",
 "Don't wait for it to happen... make it happen.",
 "You can't stop what's coming.",
@@ -164,7 +163,7 @@ $(document).ready(function () {
 "You have a choice. Live or die. Every breath is a choice. Every minute is a choice. To be or not to be.",
 "Once you make a decision... the Universe conspires to make it happen.",
 "Life begins at the end of your comfort zone.",
-"Walk in. F*ck sh!t up. Walk out.",
+"Walk in. Fuck sh!t up. Walk out.",
 "If your actions inspire others to dream more, learn more, do more and become more, you are a leader.",
 "In any situation the best thing you can do is the right thing, the next best thing you can do is the wrong thing, the worst thing you can do is nothing.",
 "Live once.",
@@ -173,7 +172,7 @@ $(document).ready(function () {
 "Don't worry... Everything is going to be amazing.",
 "Be ashamed to die until you have won some victory for humanity.",
 "Success isn't the result of spontaneous combustion. You must set yourself on fire.",
-"You might be more creative, talented, artistic, outgoing, or beautiful. But I will outwork the f*ck out of you. Period.", 
+"You might be more creative, talented, artistic, outgoing, or beautiful. But I will outwork the fuck out of you. Period.", 
 "Inspiration exists, but it has to find you working.",
 "It's not what you do every once in awhile; it's what you dedicate yourself to on a regular basis that makes the difference.",
 "It's ok to not work. Just know that somewhere, someone else is... and they'll be ready to take your place.",
@@ -193,7 +192,6 @@ $(document).ready(function () {
 "The extra mile is a vast, unpopulated wasteland.",
 "Everything is energy and that's all there is to it. Match the frequency of the reality you want and you cannot help but get that reality. It can be no other way. This is not philosophy. This is physics.",
 "How you do anything is how you do everything.",
-"The more I want to get something done, the less I call it work.",
 "A mind always employed is always happy. This is the true secret, the grand recipe, for felicity.",
 "The harder you work the harder it is to surrender.",
 "Find your purpose and give it life.",
@@ -247,7 +245,7 @@ $(document).ready(function () {
 "Those who mind don't matter, and those who matter don't mind.",
 "No one can make you feel inferior without your consent.",
 "We are all in the gutter, but some of us are looking at the stars.",
-"Learn to say 'F*ck You' to the world once in a while.",
+"Learn to say 'Fuck You' to the world once in a while.",
 "To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment.",
 "Work on building the life of your dreams, and the person of your dreams will follow.",
 "He who says he can and he who says he can't are both usually right.",
@@ -257,7 +255,7 @@ $(document).ready(function () {
 "Don't try to fit in... they're all miserable over there.",
 "An essential aspect of creativity is not being afraid to fail.",
 "If you want to fly, you have to give up the things that weigh you down.",
-"Just keep moving forward and don't give a sh!t about what anybody thinks. Do what you have to do, for you.",
+"Just keep moving forward and don't give a shit about what anybody thinks. Do what you have to do, for you.",
 "Don't look to the approval of others for your mental stability.",
 "Smile, breathe, and go slowly.",
 "Being realisitic is the most commonly traveled road to mediocrity."
@@ -274,7 +272,7 @@ $(document).ready(function () {
 "Intent reveals desire. Action reveals commitment.",
 "I want to put a dent in the universe.",
 "There is only one way to avoid criticism: do nothing, say nothing, and be nothing.",
-"Sometimes I feel like giving up, then I remember that I have a lot of motherf*ckers to prove wrong.",
+"Sometimes I feel like giving up, then I remember that I have a lot of motherfuckers to prove wrong.",
 "My belief is stronger than your doubt.",
 "Don't wait for it to happen... make it happen.",
 "You can't stop what's coming.",
@@ -290,7 +288,7 @@ $(document).ready(function () {
 "You have a choice. Live or die. Every breath is a choice. Every minute is a choice. To be or not to be.",
 "Once you make a decision... the Universe conspires to make it happen.",
 "Life begins at the end of your comfort zone.",
-"Walk in. F*ck sh!t up. Walk out.",
+"Walk in. Fuck shit up. Walk out.",
 "If your actions inspire others to dream more, learn more, do more and become more, you are a leader.",
 "In any situation the best thing you can do is the right thing, the next best thing you can do is the wrong thing, the worst thing you can do is nothing.",
 "Live once.",
@@ -315,7 +313,7 @@ $(document).ready(function () {
 "Intent reveals desire. Action reveals commitment.",
 "I want to put a dent in the universe.",
 "There is only one way to avoid criticism: do nothing, say nothing, and be nothing.",
-"Sometimes I feel like giving up, then I remember that I have a lot of motherf*ckers to prove wrong.",
+"Sometimes I feel like giving up, then I remember that I have a lot of motherfuckers to prove wrong.",
 "My belief is stronger than your doubt.",
 "Don't wait for it to happen... make it happen.",
 "You can't stop what's coming.",
@@ -331,7 +329,7 @@ $(document).ready(function () {
 "You have a choice. Live or die. Every breath is a choice. Every minute is a choice. To be or not to be.",
 "Once you make a decision... the Universe conspires to make it happen.",
 "Life begins at the end of your comfort zone.",
-"Walk in. F*ck sh!t up. Walk out.",
+"Walk in. Fuck shit up. Walk out.",
 "If your actions inspire others to dream more, learn more, do more and become more, you are a leader.",
 "In any situation the best thing you can do is the right thing, the next best thing you can do is the wrong thing, the worst thing you can do is nothing.",
 "Live once.",
@@ -436,14 +434,20 @@ $(document).ready(function () {
             centered: true
         };
         
-        var tempContainer = [];
-        for (var x = 0; x < container.length; x++){
-            var index = Math.floor(Math.random() * container.length);
-            tempContainer.push(container[index]);
+        function randomizeArray(array) {
+            for (var j = array.length - 1; j > 0; j--) {
+                var k = Math.floor(Math.random() * (j + 1));
+                var temp = array[j];
+                array[j] = array[k];
+                array[k] = temp;
+            }
+            return array;
         };
 
+        randomizeArray(container);
+
         stopTextualizer();
-        glass.textualizer(tempContainer, options);
+        glass.textualizer(container, options);
         glass.textualizer('start');
         txtBox.val('');
     };
