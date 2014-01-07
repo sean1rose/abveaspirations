@@ -9,8 +9,8 @@ $(document).ready(function () {
     var pre2 = $('#pre2');
     var pre3 = $('#pre3');
     var pre4 = $('#pre4');
-    var pre0 = $('#pre0'); //ALL Strings combined
-    var pre5 = $('#pre5');
+    var pre5 = $('#pre5'); //ALL Strings combined
+    var pre6 = $('#pre6');
     var txt = $('#display');
     var glass = $('#frame');
     var preset1 = ["What we do in life echoes in all eternity.",
@@ -36,7 +36,6 @@ $(document).ready(function () {
 "The coward dies a thousand deaths, the brave but one.",
 "Do it or not. There is no try.",
 "Make it yours.",
-"Twenty years from now you will be more disappointed by the things that you didn't do than by the ones you did do. So throw off the bowlines. Sail away from the safe harbor. Explore. Dream. Discover.",
 "You have a choice. Live or die. Every breath is a choice. Every minute is a choice. To be or not to be.",
 "Once you make a decision... the Universe conspires to make it happen.",
 "Life begins at the end of your comfort zone.",
@@ -107,7 +106,6 @@ $(document).ready(function () {
 "Humility is not thinking less of yourself, it's thinking of yourself less.",
 "What you do speaks so loudly that I cannot hear what you say.",
 "To err is human; to forgive, divine.",
-"All that we are is the result of what we have thought. If a man speaks or acts with an evil thought, pain follows him. If a man speaks or acts with a pure thought, happiness follows him, like a shadow that never leaves him.",
 "People will forget what you say to them, people will forget what you did, but people will never forget how you make them feel.",
 "Every man is the creature of the age in which he lives; very few are able to raise themselves above the ideas of the times.",
 "Successful people never worry about what others are doing.",
@@ -136,7 +134,7 @@ $(document).ready(function () {
 "Don't look to the approval of others for your mental stability.",
 "Smile, breathe, and go slowly.",
 "Being realisitic is the most commonly traveled road to mediocrity."];
-    var preset0 = ["What we do in life echoes in all eternity.",
+    var preset5 = ["What we do in life echoes in all eternity.",
 "Success isn't the result of spontaneous combustion. You must set yourself on fire.",
 "Who said it could not be done? And what great victories has he to his credit which qualify him to judge others accurately?",
 "There's just one life to live and there's no time to waste.",
@@ -159,7 +157,6 @@ $(document).ready(function () {
 "The coward dies a thousand deaths, the brave but one.",
 "Do it or not. There is no try.",
 "Make it yours.",
-"Twenty years from now you will be more disappointed by the things that you didn't do than by the ones you did do. So throw off the bowlines. Sail away from the safe harbor. Explore. Dream. Discover.",
 "You have a choice. Live or die. Every breath is a choice. Every minute is a choice. To be or not to be.",
 "Once you make a decision... the Universe conspires to make it happen.",
 "Life begins at the end of your comfort zone.",
@@ -190,7 +187,6 @@ $(document).ready(function () {
 "Energy and persistence conquer all things.",
 "Knowing trees, I understand the meaning of patience. Knowing grass, I can appreciate persistence.",
 "The extra mile is a vast, unpopulated wasteland.",
-"Everything is energy and that's all there is to it. Match the frequency of the reality you want and you cannot help but get that reality. It can be no other way. This is not philosophy. This is physics.",
 "How you do anything is how you do everything.",
 "A mind always employed is always happy. This is the true secret, the grand recipe, for felicity.",
 "The harder you work the harder it is to surrender.",
@@ -230,7 +226,6 @@ $(document).ready(function () {
 "Humility is not thinking less of yourself, it's thinking of yourself less.",
 "What you do speaks so loudly that I cannot hear what you say.",
 "To err is human; to forgive, divine.",
-"All that we are is the result of what we have thought. If a man speaks or acts with an evil thought, pain follows him. If a man speaks or acts with a pure thought, happiness follows him, like a shadow that never leaves him.",
 "People will forget what you say to them, people will forget what you did, but people will never forget how you make them feel.",
 "Every man is the creature of the age in which he lives; very few are able to raise themselves above the ideas of the times.",
 "Successful people never worry about what others are doing.",
@@ -260,7 +255,7 @@ $(document).ready(function () {
 "Smile, breathe, and go slowly.",
 "Being realisitic is the most commonly traveled road to mediocrity."
 ];
-    var preset5 = ["Your ASPIRATIONS here"];
+    var preset6 = ["Your ASPIRATIONS here"];
     var container = ["What we do in life echoes in all eternity.",
 "Success isn't the result of spontaneous combustion. You must set yourself on fire.",
 "Who said it could not be done? And what great victories has he to his credit which qualify him to judge others accurately?",
@@ -284,7 +279,6 @@ $(document).ready(function () {
 "The coward dies a thousand deaths, the brave but one.",
 "Do it or not. There is no try.",
 "Make it yours.",
-"Twenty years from now you will be more disappointed by the things that you didn't do than by the ones you did do. So throw off the bowlines. Sail away from the safe harbor. Explore. Dream. Discover.",
 "You have a choice. Live or die. Every breath is a choice. Every minute is a choice. To be or not to be.",
 "Once you make a decision... the Universe conspires to make it happen.",
 "Life begins at the end of your comfort zone.",
@@ -325,7 +319,6 @@ $(document).ready(function () {
 "The coward dies a thousand deaths, the brave but one.",
 "Do it or not. There is no try.",
 "Make it yours.",
-"Twenty years from now you will be more disappointed by the things that you didn't do than by the ones you did do. So throw off the bowlines. Sail away from the safe harbor. Explore. Dream. Discover.",
 "You have a choice. Live or die. Every breath is a choice. Every minute is a choice. To be or not to be.",
 "Once you make a decision... the Universe conspires to make it happen.",
 "Life begins at the end of your comfort zone.",
@@ -361,24 +354,20 @@ $(document).ready(function () {
         updateConsole();
     };
 
-    function loadPreset0() {
-        container = [];
-        console.empty();
-        container = preset0;
-        updateConsole();
-    };
-
     function loadPreset5() {
         container = [];
         console.empty();
         container = preset5;
         updateConsole();
     };
-    
-    $(pre0).data('onselect', function() {
-        loadPreset0();
-    });    
-    
+
+    function loadPreset6() {
+        container = [];
+        console.empty();
+        container = preset6;
+        updateConsole();
+    };
+        
     $(pre1).data('onselect', function() {
         loadPreset1();
     });
@@ -397,6 +386,10 @@ $(document).ready(function () {
 
     $(pre5).data('onselect', function() {
         loadPreset5();
+    });
+
+    $(pre6).data('onselect', function() {
+        loadPreset6();
     });
         
     $(document).on('change', 'select', function(e) {
@@ -452,6 +445,11 @@ $(document).ready(function () {
         txtBox.val('');
     };
     
+    function stopTextualizer(){
+        glass.textualizer('stop');
+        glass.textualizer('destroy');
+    };
+
     $("#controlbox").on('dblclick', 'p', function() {
         var $entry = $(this);
         container.splice($entry.index(), 1);
@@ -459,11 +457,6 @@ $(document).ready(function () {
         stopTextualizer();
         display();
     });
-    
-    function stopTextualizer(){
-        glass.textualizer('stop');
-        glass.textualizer('destroy');
-    };
         
     $(stopBtn).click(function() {
         stopTextualizer();
