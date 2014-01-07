@@ -410,6 +410,11 @@ $(document).ready(function () {
     
     updateConsole();
     
+    function stopTextualizer(){
+        glass.textualizer('stop');
+        glass.textualizer('destroy');
+    };
+
     function display() {
         if (txtBox.val() != '') {
             var result = txtBox.val();
@@ -444,15 +449,10 @@ $(document).ready(function () {
         glass.textualizer('start');
         txtBox.val('');
     };
-    
-    function stopTextualizer(){
-        glass.textualizer('stop');
-        glass.textualizer('destroy');
-    };
 
     $("#controlbox").on('dblclick', 'p', function() {
         var $entry = $(this);
-        container.splice($entry.index(), 1);
+        container.splice(($entry.index() + 1), 1);
         $entry.remove();
         stopTextualizer();
         display();
