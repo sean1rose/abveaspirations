@@ -420,9 +420,8 @@ $(document).ready(function () {
 
     $("#controlbox").on('dblclick', 'p', function() {
         var $entry = $(this);
-        container.splice(($entry.index() + 1), 1);
+        container.splice($entry.index(), 1);
         $entry.remove();
-        stopTextualizer();
         display();
     });
         
