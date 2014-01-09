@@ -3,6 +3,10 @@ html, body {
     width: 100%;
 }
 
+.container {
+    height: 612px;
+}
+
 #main {
     width: auto;
     display: block;
