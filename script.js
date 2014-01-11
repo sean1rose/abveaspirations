@@ -86,7 +86,7 @@ $(document).ready(function () {
 "Don't follow your dreams... Chase them!",
 "It doesn't interest me what you do for a living. I want to know what you ache for and if you dare to dream of meeting your heart's longing.",
 "If you always do what interests you, at least one person is pleased.",
-"Find out what it is you want, and go after it as if your life depended on it. Why? Becasue it does."];
+"Find out what it is you want, and go after it as if your life depended on it. Why? Because it does."];
     var preset4 = ["Life is a gift. Never take it for granted.",
 "The things you take for granted someone else is praying for.",
 "You can complain that roses have thorns, or you can be grateful that thorn bushes have roses.",
@@ -193,7 +193,7 @@ $(document).ready(function () {
 "Don't follow your dreams... Chase them!",
 "It doesn't interest me what you do for a living. I want to know what you ache for and if you dare to dream of meeting your heart's longing.",
 "If you always do what interests you, at least one person is pleased.",
-"Find out what it is you want, and go after it as if your life depended on it. Why? Becasue it does.",
+"Find out what it is you want, and go after it as if your life depended on it. Why? Because it does.",
 "Life is a gift. Never take it for granted.",
 "The things you take for granted someone else is praying for.",
 "You can complain that roses have thorns, or you can be grateful that thorn bushes have roses.",

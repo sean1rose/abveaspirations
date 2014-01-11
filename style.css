@@ -58,7 +58,7 @@ html, body {
 #frame {
     text-align: center;
     overflow: auto;
-    font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+    font-family: 'Rock Salt', cursive;
     font-size: 60px;
     color: black;
     position: absolute;
@@ -79,8 +79,8 @@ and (max-width: 1060px) {
 
 #txt {
     width: 200px;
-    font-size: 15px;
-    height: 30px;
+    font-size: 13px;
+    height: 27px;
 }
 
 .formButtons {
