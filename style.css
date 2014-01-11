@@ -4,7 +4,7 @@ html, body {
 }
 
 h1 {
-    font-size: 48px;
+    font-size: 42px;
 }
 
 #main {
@@ -121,47 +121,21 @@ and (max-width: 1060px) {
 
 
 
-.jumbotron {
-  padding: 60px;
-  margin-bottom: 30px;
-  font-size: 21px;
-  font-weight: 200;
-  line-height: 2.1428571435;
-  color: black;
-  background-color: inherit;
-}
 
-.jumbotron h1,
-.jumbotron .h1 {
-  line-height: 1;
-  color: inherit;
-}
 
-.jumbotron p {
-  line-height: 1.4;
-}
-
-.container .jumbotron {
+.container {
   border-radius: 6px;
-}
-
-.jumbotron .container {
   max-width: 100%;
 }
 
+
 @media screen and (min-width: 768px) {
-  .jumbotron {
-    padding-top: 5px;
-    padding-bottom: 20px;
-  }
+
   .container .jumbotron {
     padding-right: 60px;
     padding-left: 60px;
   }
-  .jumbotron h1,
-  .jumbotron .h1 {
-    font-size: 63px;
-  }
+
 }
 
 
@@ -317,7 +291,7 @@ letter-spacing: -1px;
 }
 
 h1, .h1 {
-font-size: 50px;
+font-size: 42px;
 }
 
 h1, h2, h3 {
