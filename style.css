@@ -206,7 +206,7 @@ and (max-width: 1060px) {
 
 
 .featurette-divider {
-    margin: 80px 0;
+    margin: 50px 0;
 }
 
 hr {
@@ -342,7 +342,6 @@ width: 41.66666666666667%;
 }
 
 footer {
-    padding: 20px;
-    padding-left: 75px;
+    padding-left: 70px;
 }
 
