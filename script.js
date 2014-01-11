@@ -119,7 +119,8 @@ $(document).ready(function () {
 "If you want to fly, you have to give up the things that weigh you down.",
 "Don't look to the approval of others for your mental stability.",
 "Smile, breathe, and go slowly.",
-"Being realisitic is the most commonly traveled road to mediocrity."];
+"Being realisitic is the most commonly traveled road to mediocrity.",
+"You can't flap with pigeons if you want to soar with eagles."];
     var preset5 = ["What we do in life echoes in all eternity.",
 "Success isn't the result of spontaneous combustion. You must set yourself on fire.",
 "Who said it could not be done? And what great victories has he to his credit which qualify him to judge others accurately?",
@@ -226,8 +227,9 @@ $(document).ready(function () {
 "If you want to fly, you have to give up the things that weigh you down.",
 "Don't look to the approval of others for your mental stability.",
 "Smile, breathe, and go slowly.",
-"Being realisitic is the most commonly traveled road to mediocrity."];
-    var preset6 = ["YOUR Aspirations Here"];
+"Being realisitic is the most commonly traveled road to mediocrity.",
+"You can't flap with pigeons if you want to soar with eagles."];
+    var preset6 = ["YOUR Aspirations Go Here"];
     var container = ["What we do in life echoes in all eternity.",
 "Success isn't the result of spontaneous combustion. You must set yourself on fire.",
 "Who said it could not be done? And what great victories has he to his credit which qualify him to judge others accurately?",
@@ -259,6 +261,7 @@ $(document).ready(function () {
 "Be ashamed to die until you have won some victory for humanity.",
 "It's necessary that you go for what is yours in the universe."];
     var console = $('#controlpanel');
+    var consoleOuter = $('#controlbox');
     var oldHandle;
     
     function loadPreset1() {
@@ -443,5 +446,7 @@ $(document).ready(function () {
         event.preventDefault();
         display();
     }); 
+
+    $(consoleOuter).corner();
         
 });
