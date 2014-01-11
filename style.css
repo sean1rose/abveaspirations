@@ -3,6 +3,9 @@ html, body {
     width: 100%;
 }
 
+h1 {
+    font-size: 48px;
+}
 
 #main {
     width: auto;
@@ -11,7 +14,7 @@ html, body {
 }
 
 #controlbox {
-    width: 600px;
+    width: 525px;
     margin: 0 auto;
     background-color: #CCC;
     border: 1px solid #b8b8b8;
