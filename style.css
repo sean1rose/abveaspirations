@@ -58,7 +58,7 @@ html, body {
 #frame {
     text-align: center;
     overflow: auto;
-    font-family: 'Permanent Marker', cursive;
+    font-family: 'Playfair Display SC', serif;
     font-size: 60px;
     color: black;
     position: absolute;
