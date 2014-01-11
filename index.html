@@ -18,32 +18,40 @@
         </div>
         <div class="spacer">
         </div>
-        <div id="main" class="container"> <!-- 11main -->
-            <div class="jumbotron">
-                <h1 id='consoleTitle'>Dream Saver</h1>
-                <h5 id='consoleSub'><i>Double-click on an entry to remove. Add entries to your heart's desire...</i></h5>
-                <div id="controlbox"> <!-- @@controlbox --> 
-                    <div id="controlpanel"></div>
-                    <div class="spacer"></div>    
-                        <div id="formula">    <!--formula -->
-                            <form id="frm" method="post">
-                                <input id="txt" type="text" placeholder="Add your own entry here..." name="text">            
-                                <input class='formButtons' id='submitBtn' type="submit" value="Start">
-                                <input class='formButtons' id='stop' type="button" value="Stop">
-                                <input class='formButtons' id='pause' type="button" value="Pause">            
-                                    <select id="load1">
-                                        <option id='pre1' value="Preset 1">Inspiration</option>
-                                        <option id='pre2' value="Preset 2">Effort</option> 
-                                        <option id='pre3' value="Preset 3">Purpose</option>
-                                        <option id='pre4' value="Preset 4">Attitude</option>
-                                        <option id='pre5' value="Preset 5">All of the ABVE</option>
-                                        <option id='pre6' value="Preset 6">YOUR Aspirations</option>  
-                                    </select>
-                            </form>
-                        </div>          <!-- formula -->   
-                </div>  <!-- @@controlbox -->
+        <div class="row featurette">
+            <div class="col-md-7">
+                <h2 class="featurette-heading">Welcome to AbveAspirations. <span class="text-muted">This is a place to inspire.</span></h2>
+                <p class="lead">A place to aspire. A place to save your dreams and a place to allow them to take root and flourish. Because everyone dreams, but only the extraordinary purse...</p>
             </div>
-        </div>        <!-- 11main -->
+            <div class="col-md-5">
+                <div id="main" class="container"> <!-- 11main -->
+                    <div class="jumbotron">
+                        <h1 id='consoleTitle'>Dream Saver</h1>
+                        <h5 id='consoleSub'><i>Double-click on an entry to remove. Add entries to your heart's desire...</i></h5>
+                        <div id="controlbox"> <!-- @@controlbox --> 
+                            <div id="controlpanel"></div>
+                            <div class="spacer"></div>    
+                                <div id="formula">    <!--formula -->
+                                    <form id="frm" method="post">
+                                        <input id="txt" type="text" placeholder="Add your own entry here..." name="text">            
+                                        <input class='formButtons' id='submitBtn' type="submit" value="Start">
+                                        <input class='formButtons' id='stop' type="button" value="Stop">
+                                        <input class='formButtons' id='pause' type="button" value="Pause">            
+                                            <select id="load1">
+                                                <option id='pre1' value="Preset 1">Inspiration</option>
+                                                <option id='pre2' value="Preset 2">Effort</option> 
+                                                <option id='pre3' value="Preset 3">Purpose</option>
+                                                <option id='pre4' value="Preset 4">Attitude</option>
+                                                <option id='pre5' value="Preset 5">All of the ABVE</option>
+                                                <option id='pre6' value="Preset 6">YOUR Aspirations</option>  
+                                            </select>
+                                    </form>
+                                </div>          <!-- formula -->   
+                        </div>  <!-- @@controlbox -->
+                    </div>
+                </div>        <!-- 11main -->
+            </div>
+        </div>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script src="textualizer.js"></script>
         <script type="text/javascript" src="script.js"></script>
