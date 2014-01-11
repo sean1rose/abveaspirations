@@ -27,12 +27,12 @@ html, body {
 }
 
 #consoleTitle {
-    font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-align: center;
 }
 
 #consoleSub {
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-align: center;
 }
 
@@ -258,7 +258,7 @@ display: block;
 
 
 @media (min-width: 992px)
-.col-md-7 {
+.col-md-6 {
 width: 58.333333333333336%;
 }
 
@@ -272,6 +272,10 @@ position: relative;
 min-height: 1px;
 padding-right: 15px;
 padding-left: 15px;
+}
+
+#lefthandside {
+padding-left: 75px;
 }
 
 *, *:before, *:after {
@@ -309,8 +313,8 @@ line-height: 1;
 letter-spacing: -1px;
 }
 
-h2, .h2 {
-font-size: 30px;
+h1, .h1 {
+font-size: 50px;
 }
 
 h1, h2, h3 {
@@ -356,7 +360,7 @@ display: block;
 
 
 @media (min-width: 992px)
-.col-md-5 {
+.col-md-6 {
 width: 41.66666666666667%;
 }
 
