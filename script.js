@@ -447,7 +447,7 @@ $(document).ready(function () {
         display();
     }); 
 
-    $(consoleOuter).corner("bevel");
+    $(consoleOuter).corner();
     $(console).corner();
     $(txtBox).corner();
     $(subBtn).corner();
