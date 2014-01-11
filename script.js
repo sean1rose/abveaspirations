@@ -447,7 +447,7 @@ $(document).ready(function () {
         display();
     }); 
 
-    $(consoleOuter).corner();
+    $(consoleOuter).corner("bite");
     $(console).corner();
     $(txtBox).corner();
     $(subBtn).corner();
