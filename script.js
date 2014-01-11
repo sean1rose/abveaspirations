@@ -448,5 +448,10 @@ $(document).ready(function () {
     }); 
 
     $(consoleOuter).corner();
+    $(console).corner();
+    $(txtBox).corner();
+    $(subBtn).corner();
+    $(stopBtn).corner();
+    $(pauseBtn).corner();
         
 });
