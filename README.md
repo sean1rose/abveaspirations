@@ -12,8 +12,4 @@ But yea, I've learned A LOT from this project - here's a short and not-at-all-co
 Like I said - this is my very first project - and I couldn't be happier with the results, visually and functionally. So anyways, I kind of made this readme into a blog post, but whatever... Hope you enjoy it.
 
 
-PS: As of today, 1-1-14, I believe this is optimized for viewing on a MacBook-sized display. There isn't full functionality on a touch screen (tablet or smart phone - double click to remove is not implemented), and I'm not even sure how this bad boy looks on a windows computer or thru IE. I'll eventually get to that, but I first wanted to make sure it looked nice on my display. 
-
-
-"Figure out what it is that you want and go after it as if your life depends on it... Why?.. Because it does."
-- Les Brown
+PS: As of today, 1-1-15, localStorage is much more difficult to implement with multiple containers than I ever hoped for. So saving the user's changes to the console is still a (major) work in progress. Also, I'm pretty sure this is optimized for viewing on a MacBook-sized display. There isn't full functionality on a touch screen (tablet or smart phone - double click to remove is not implemented), and I'm not even sure how this bad boy looks on a windows computer or thru IE. I'll eventually get to that, but I first wanted to make sure it looked nice on my own (and similar) display(s).
