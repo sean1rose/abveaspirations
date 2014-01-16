@@ -262,45 +262,11 @@ $(document).ready(function () {
 "It's necessary that you go for what is yours in the universe."];
     var console = $('#controlpanel');
     var consoleOuter = $('#controlbox');
-    var oldHandle;
     
     function loadPreset1() {
         container = [];
         console.empty();
-        container = ["What we do in life echoes in all eternity.",
-"Success isn't the result of spontaneous combustion. You must set yourself on fire.",
-"Who said it could not be done? And what great victories has he to his credit which qualify him to judge others accurately?",
-"There's just one life to live and there's no time to waste.",
-"Pause for a moment and put things in perspective. You have life, and it can be so very good.",
-"You don't need planning permission to build castles in the sky.",
-"Nothing is stopping you.",
-"Do you have the courage to go after your dreams?",
-"Intent reveals desire. Action reveals commitment.",
-"I want to put a dent in the universe.",
-"There is only one way to avoid criticism: do nothing, say nothing, and be nothing.",
-"Sometimes I feel like giving up, then I remember that I have a lot of motherfuckers to prove wrong.",
-"My belief is stronger than your doubt.",
-"Don't wait for it to happen... make it happen.",
-"You can't stop what's coming.",
-"The goal isn't to live forever, the goal is to create something that will.",
-"If you wish to be out front, then act as if you were behind.",
-"If not us, who? If not now, when?",
-"When you want to succeed as bad as you want to breathe - then you'll be successful.",
-"Go confidently in the direction of your dreams. Live the life you have imagined.",
-"The coward dies a thousand deaths, the brave but one.",
-"Do it or not. There is no try.",
-"Make it yours.",
-"You have a choice. Live or die. Every breath is a choice. Every minute is a choice. To be or not to be.",
-"Once you make a decision... the Universe conspires to make it happen.",
-"Life begins at the end of your comfort zone.",
-"Walk in. Fuck shit up. Walk out.",
-"If your actions inspire others to dream more, learn more, do more and become more, you are a leader.",
-"In any situation the best thing you can do is the right thing, the next best thing you can do is the wrong thing, the worst thing you can do is nothing.",
-"Live once.",
-"Fortes Fortuna Adiuvat.",
-"Come on you sons of bitches, do you want to live forever?",
-"Don't worry... Everything is going to be amazing.",
-"Be ashamed to die until you have won some victory for humanity."];
+        container = preset1;
         updateConsole();
     };
     
@@ -399,8 +365,8 @@ $(document).ready(function () {
             
             var resultB = container[container.length-1];
             var $entry = $('<p>' + '- ' + resultB + '</p>');
-            console.append($entry);                         //2.
-        };
+            console.append($entry);                         //2.    At this point whatever has been added/removed is now in container and the console
+        };                                                  // so you can save the container as a particular preset (but how to to know if preset1, 2, 3 etc)
         
         var tempContainer = [];
         for (var j = 0; j < container.length; j++) {
